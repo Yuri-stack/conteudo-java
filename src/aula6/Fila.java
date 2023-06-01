@@ -32,6 +32,7 @@ public class Fila {
 		// fila.remove();
 		
 		System.out.println("\nTentando apagar item da Fila Vazia: " + fila.poll());
+		
 	}
 
 }
