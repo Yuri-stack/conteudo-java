@@ -3,7 +3,7 @@ package aula4;
 public class Vetor {
 
 	public static void main(String[] args) {
-		
+				
 		String vetorCachorros[] = {"Boxer", "Pastor A", "Pinscher", "Husky", "Corgi"};
 		
 		for(int numero = 0; numero < 5; numero++) {
