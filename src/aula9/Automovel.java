@@ -6,12 +6,15 @@ public class Automovel extends Terrestre{
 	private String placa;
 	private int marcha;
 	
-	public Automovel(int capacidade, int numeroRodas, float velocidade, String cor, int numeroPortas, String placa, int marcha) {
+	public Automovel(int capacidade, int numeroRodas, float velocidade, String corAuto, int numeroPortas, String placa, int marcha) {
 		super(capacidade, numeroRodas, velocidade);
-		this.cor = cor;
+		cor = corAuto;
 		this.numeroPortas = numeroPortas;
 		this.placa = placa;
 		this.marcha = marcha;
+		// Automovel.cor = "Vermelho"
+		// this == Automovel
+		// Automovel.numeroRodas = 4
 	}
 	
 	public Automovel(String cor, int numeroPortas, String placa, int marcha) {
